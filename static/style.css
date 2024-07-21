@@ -1,0 +1,80 @@
+body {
+    padding-top: 70px;
+    align-items: center;
+}
+
+#board {
+    margin-top: 1rem;
+    height: 70rem;
+    width: 70rem;
+    min-width: 300px;
+}
+
+.navbar {
+    background-color: red;
+}
+
+#logo {
+    position: relative;
+    left: 10%;
+}
+
+#secondWindow {
+    max-width: 800px;
+    margin: 10px;
+    min-height: 370px;
+}
+
+#moveTable {
+    width: 100%;
+    max-height: 400px;
+    padding: 1rem;
+    overflow: auto;
+}
+
+#controls {
+    position: absolute;
+    bottom: 0;
+}
+
+.form-inline {
+    display: flex;
+    gap: .8rem;
+}
+
+.form-inline button {
+    align-items: center;
+    appearance: button;
+    background-color: #0276FF !important;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: "RM Neue", sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    padding: 10px 21px;
+    text-align: center;
+    background-image: none;
+    text-transform: none;
+    transition: color .13s ease-in-out, background .13s ease-in-out, opacity .13s ease-in-out, box-shadow .13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.form-inline button:active {
+    background-color: #062a55c6;
+    color: white;
+}
+
+.form-inline button:hover {
+    background-color: #062a55c6;
+    color: white;
+}
